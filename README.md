@@ -10,7 +10,6 @@
 Problem: Count More than n/k Occurences.Given an array arr[] of size N and an element k. The task is to find all elements in array that appear more than n/k times. 
 Time Complexity: O(nk)
 Space Complexity: O(k)
-
 === Check out the solution, and contribute a real life scenario in which we can apply this solution ===
 
     Explanation: We cannot calculate and store occurance of every element because that leads to a space complexity O(n). 
@@ -20,3 +19,12 @@ Space Complexity: O(k)
     Else we decrement every players score on the Leaderboard.
     In the end, we will have top 5 players on the Leaderboard. 
     So, we count the number of toppers who won more than n/k times.
+
+2) p2.cpp (url: https://github.com/OmPals/Algorithms-and-Data-structures/blob/main/p2.cpp)
+Problem: Generate valid parenthesis patterns. Given N numbers for opening brackets.
+=== Check out the solution, and contribute a real life scenario in which we can apply this solution ===
+    
+    Explanation: The fundamental thought, which comes accross mind whenever creating valid parenthesis pattern on pen and paper is that, at any point of time, number of opening brackets "(" must be greater than or equal to number of closing brackets ")". 
+    So, we add an "(" first. If count of ")" is less than "(", add a ")". To make sure this loop don't reiterate to itself in infinite loop, we have a cap on count of "(" which is... N.
+    So, to keep track of every sub-pattern generated, we maintain a queue of struct {sub-pattern string, count of "(", count of ")"}.
+    This will help us generating different patterns.
