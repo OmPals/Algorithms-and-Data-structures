@@ -97,3 +97,12 @@ Problem: Implemented Trie data structure
     Explanation: Video explanation by Sir Tushar Roy: https://youtu.be/AXjmTQ8LEoI
 
 Sample testcases: 
+
+10) p10.cpp (url: https://github.com/OmPals/Algorithms-and-Data-structures/blob/main/p10.cpp)
+Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+
+=== Contribute a tested sample test case ===
+
+    Explanation: Refer to this post on Leetcode :  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/discuss/794836/CPP-Easy-One-Pass-Constant-Memory-Solution-Explained-~98-Time-80-Space
+    
+Sample testcases: 
