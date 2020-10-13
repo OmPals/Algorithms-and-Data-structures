@@ -10,6 +10,7 @@
 Problem: Count More than n/k Occurences.Given an array arr[] of size N and an element k. The task is to find all elements in array that appear more than n/k times. 
 Time Complexity: O(nk)
 Space Complexity: O(k)
+
 === Check out the solution, and contribute a real life scenario in which we can apply this solution ===
 
     Explanation: We cannot calculate and store occurance of every element because that leads to a space complexity O(n). 
