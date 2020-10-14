@@ -120,3 +120,12 @@ Problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
     
 Sample testcases: 
 
+11) Median of integer stream. Ref: https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/
+
+12) Given arrival and departure times of all trains that reach a railway station. Your task is to find the minimum number of platforms required for the railway station so that no train waits. Ref: https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+
+13) Given a sorted and rotated array A of N distinct elements which is rotated at some point, 
+and given an element K. The task is to find the index of the given element K in the array A. Ref: https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+
+14) Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. Ref: https://leetcode.com/problems/trapping-rain-water/
+https://www.geeksforgeeks.org/trapping-rain-water/
