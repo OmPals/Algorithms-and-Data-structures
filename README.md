@@ -129,3 +129,12 @@ and given an element K. The task is to find the index of the given element K in 
 
 14) Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. Ref: https://leetcode.com/problems/trapping-rain-water/
 https://www.geeksforgeeks.org/trapping-rain-water/
+
+15) COMPARING BETWEEN *INVERSION COUNT OF AN ARRAY* AND
+*MINIMUM SWAPS NEEDED TO SORT AN ARRAY*
+
+SAMPLE TEST CASE: 
+10 <- SIZE OF ARRAY
+9 8 7 6 5 4 3 2 1 0 <- ARRAY ELEMENTS 
+
+OUTPUT: INVERSION_COUNT MINIMUM_SWAPS
