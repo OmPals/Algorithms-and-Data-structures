@@ -23,6 +23,6 @@ class Node {
 };
 
 int main() {
-    
+    cout << "Hello graphs";
     return 0;
 }
