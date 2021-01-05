@@ -13,6 +13,7 @@ int main() {
     vector <string> ans;
     queue <pair<string, pair<int, int>>> q;
     q.push({"", {0,0}});
+    cout << "okay\n";
     while (!q.empty()) {
         auto p = q.front();
         q.pop();
