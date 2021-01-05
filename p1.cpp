@@ -36,7 +36,7 @@ int main() {
             }    
         }
     }
-    
+    cout << "Checkout\n";
     for(int i = 0; i < k-1; i++) {
         int t = leaderBoard[i].first, count = 0;
         for(int j = 0; j < n; j++) {
