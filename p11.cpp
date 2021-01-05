@@ -27,6 +27,7 @@ void addNum(int num) {
         ans = maxh.top() + minh.top();
         ans = (double)ans/2.0;
     }
+    cout << "changed!\n";
     else {
         if (num > ans) {
             minh.push(num);
